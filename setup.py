@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 import setuptools
 
+version = '0.9.5dev'
+
 setuptools.setup(
     name='fastimport',
     description='VCS fastimport/fastexport parser',
     author='Canonical Ltd',
+    version=version,
     author_email='bazaar@lists.canonical.com',
     license='GNU GPL v2 or later',
     url='https://launchpad.net/python-fastimport',
